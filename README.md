@@ -57,7 +57,7 @@ Recreated the wiring in **Tinkercad** for electrical verification and visualizat
 - Base code from Open Source resources, adjusted during learning phase
 
 ## Future Plans
-- Design a custom enclosure in Fusion 360
+- Design a custom enclosure in Fusion 360 / SolidWorks
 - Improve code and build a PCB
 
 ---
