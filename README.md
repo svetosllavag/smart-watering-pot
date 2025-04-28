@@ -4,7 +4,8 @@
 I’ve always had a passion for plants, gardening, and cooking. Combining these hobbies with my studies as a mechatronics student led me to create a **self-watering pot** prototype.  
 The goal is to automate watering for fresh herbs — and maybe even yellow pear tomatoes (which I’m growing from seeds!).
 
-This project focuses on developing a simple, functional prototype using basic electronics.  
+This project focuses on developing a simple, functional prototype using basic electronics (including Arduino, sensors to detect soil moisture and water levels, and an automated water pump system.
+
 Future goals include making the system **eco-friendly** and adding **artificial sunlight** features.
 
 ---
@@ -48,9 +49,20 @@ Faced power instability when the pump ran. Solved it by:
 ### Step 5: Tinkercad Simulation
 Recreated the wiring in **Tinkercad** for electrical verification and visualization.
 
+## Status
+- Prototype built and tested successfully
+- Code adjustments done during testing phase
+
+## Acknowledgment
+- Base code from Open Source resources, adjusted during learning phase
+
+## Future Plans
+- Design a custom enclosure in Fusion 360
+- Improve code and build a PCB
+
 ---
 
-## Notes for Future Improvements
+## Notes for Improvements
 - **Eco-friendly Power**: Explore solar panels or rechargeable battery systems.
 - **Improved Power Management**: Implement low-power Arduino modes.
 - **Code Optimization**: As C++ skills improve, rewrite and optimize the current codebase.
