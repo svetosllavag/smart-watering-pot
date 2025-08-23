@@ -10,7 +10,7 @@ const int echoPin = 10;           // Ultrasonic sensor echo pin
 LiquidCrystal_I2C lcd(0x27, 16, 2);  // Address 0x27 for most 16x2 I2C LCDs
 
 // Moisture thresholds
-const int dryThreshold = 500;       // Moisture threshold (adjust as needed)
+const int dryThreshold = 500;       // Moisture threshold
 
 // Water level thresholds (in cm)
 const int lowWaterThreshold = 5;    // Low water level threshold (in cm)
@@ -26,7 +26,7 @@ void setup() {
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
 
-  digitalWrite(relayPin, LOW);  // Ensure the pump is off initially
+  digitalWrite(relayPin, LOW); 
   lcd.init();
   lcd.backlight();
 }
