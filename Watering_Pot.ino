@@ -7,7 +7,7 @@ const int trigPin = 9;            // Ultrasonic sensor trig pin
 const int echoPin = 10;           // Ultrasonic sensor echo pin
 
 // Setup LCD
-LiquidCrystal_I2C lcd(0x27, 16, 2);  // Address 0x27 for most 16x2 I2C LCDs
+LiquidCrystal_I2C lcd(0x27, 16, 2); 
 
 // Moisture thresholds
 const int dryThreshold = 500;       // Moisture threshold
